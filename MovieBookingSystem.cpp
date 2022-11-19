@@ -1,4 +1,6 @@
 #include<iostream>
+#include "data.h"
+#include<string>
 
 int main(){
 	std::cout<<"Welcome to Movie Ticket Booking System \n"<<"\n";
@@ -14,6 +16,8 @@ int main(){
 	std::cin>>opt;
 	
 	std::cout<<"you have selected: "<<opt<<"\n";
+	data d ;
+	d.readData();
 	
 	return 0;
 }
